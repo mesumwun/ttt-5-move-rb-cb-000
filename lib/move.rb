@@ -14,5 +14,5 @@ end
 
 # code to create array index and value
 def move(board, index, value = "X")
-  board[index] = value
+  return board[index] = value
 end
